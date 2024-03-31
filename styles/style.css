@@ -26,8 +26,7 @@
     list-style: none;
 }
 .header__link_active {
-    text-decoration: none;   
-}
+    text-decoration: none;}
 .header__logo-image {
     width: 148px;
     height: 105px;
