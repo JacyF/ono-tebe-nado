@@ -10,7 +10,7 @@
     background-size: 135px;
 }
 .header-inside-container {
-    border: 1px solid pink;
+    
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: 4fr 1.3fr;
