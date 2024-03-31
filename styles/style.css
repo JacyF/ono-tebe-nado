@@ -2,41 +2,44 @@
 
 /* ========   WORKING ON HEADER AREA ============= */
 .header {
-    padding: 92px 24px;
-    font-weight: 400;
     border: 1px solid;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 330px 2fr 2fr;
-    gap: 100px;
+    padding: 92px 24px;
+    background-image: url(/images/logo-black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 135px;
 }
-.header__menu {
-    text-wrap: nowrap;
-    margin: 15px;
+.header-inside-container {
+    border: 1px solid pink;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 4fr 1.3fr;
+    height: 105px;
+    align-items: center;
+    padding: 0 15px;
+    line-height: 1.2;
 }
 .header__links-list {
     display: flex;
-    list-style: none;
-    gap: 30px;
-}
-.header__links-list-item {
+    line-height: 1.1;
+    gap: 40px;
     list-style: circle;
+}
+.header__link_active {
+    text-decoration: none;
 }
 .header__links-list-item_no-bullit {
     list-style: none;
 }
-.header__link_active {
-    text-decoration: none;}
-.header__logo-image {
-    width: 148px;
-    height: 105px;
-}
-.header__link {
+.header__links-list-item {
     font-size: 18px;
     font-weight: 400;
 }
-.address {
-    font-style: normal;
+.address a, p {
     font-size: 18px;
+    line-height: 1.2;
+    font-style:normal;
     font-weight: 400;
 }
+/* ========   WORKING ON COVER SECTION ============= */
+
