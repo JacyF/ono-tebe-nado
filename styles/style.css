@@ -195,3 +195,35 @@
     font-weight: 400;
     margin-left: 45px;
 }
+/* ========   WORKING ON ABOUT SECTION ============= */
+.about {
+    display: flex;
+    gap: 76px;
+    align-items: start;
+    padding: 35px 0  0 47px;
+    margin: 0 24px;
+}
+.about__logo-image {
+    background-color: black;
+    clip-path: circle(50%);
+    height: 100%;
+    width: 240px;
+    min-height: 240px; 
+    padding: 47px;
+}
+.about__column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 100px;
+}
+.about__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+}
