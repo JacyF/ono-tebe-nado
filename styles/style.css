@@ -65,7 +65,7 @@
 .header__links-list-item {
   list-style: circle;
 }
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 .header__link {
@@ -78,7 +78,7 @@
 .header__logo {
   display: block;
   width: 148px;
-  height: 105px;  
+  height: 105px;
 }
 .header__logo-image {
   width: 100%;
