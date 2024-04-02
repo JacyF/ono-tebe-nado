@@ -2,16 +2,19 @@
 
 /* ========   WORKING ON HEADER AREA ============= */
 .header {
+
     padding: 92px 24px;
     background-image: url(../images/logo-black.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 135px;
+
 }
 
 .header-inside-container {
 
     display: grid;
+
     justify-content: space-evenly;
     grid-template-columns: 4fr 1.3fr;
     height: 105px; 
@@ -22,40 +25,52 @@
 }
 
 .header__links-list {
+
     display: flex;
     line-height: 1.1;
     gap: 40px;
     list-style: circle;
+
 }
 
 .header__link_active {
+
     text-decoration: none;
+
 }
 
 .header__links-list-item_no-bullit {
+
     list-style: none;
+
 }
 
 .header__links-list-item {
+
     font-size: 18px;
     font-weight: 400;
+
 }
 
 .address a, p {
+
     font-size: 18px;
     line-height: 1.2;
     font-style:normal;
     font-weight: 400;
+
 }
 
 /* ========   WORKING ON COVER SECTION ============= */
 
 .overlay {
+
     background-color: black;
     opacity: 60%;
     position: absolute;
     inset: 0;
     z-index: -1;
+
 }
 
 .cover {
@@ -225,9 +240,8 @@
 }
 
 /* ========   WORKING ON ABOUT SECTION ============= */
-
 .about {
-    
+
     display: flex;
     gap: 73px;
     align-items: start;
