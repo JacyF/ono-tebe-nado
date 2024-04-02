@@ -15,10 +15,8 @@
     justify-content: space-evenly;
     align-items: center;
     grid-template-columns: 4fr 1.3fr;
-
     padding: 0 15px;
     height: 105px; 
-
     line-height: 1.2;
 }
 
@@ -244,12 +242,10 @@
 }
 
 .about__logo-image {
+    clip-path: circle(50%); 
     padding: 47px;
     width: 240px;
     height: 240px;
-
-    clip-path: circle(50%); 
-
     background-color: black;
 }
 
@@ -257,7 +253,6 @@
     display: flex;  
     flex-direction: column;
     gap: 30px;
-
     padding-top: 100px;
 }
 
