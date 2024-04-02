@@ -2,7 +2,6 @@
 
 /* ========   WORKING ON HEADER AREA ============= */
 .header {
-
     padding: 92px 24px;
     background-image: url(/images/logo-black.svg);
     background-repeat: no-repeat;
@@ -10,7 +9,6 @@
     background-size: 135px;
 }
 .header-inside-container {
-
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: 4fr 1.3fr;
