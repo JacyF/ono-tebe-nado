@@ -17,8 +17,8 @@
     grid-template-columns: 4fr 1.3fr;
 
     padding: 0 15px;
-
     height: 105px; 
+
     line-height: 1.2;
 }
 
@@ -259,14 +259,16 @@
     gap: 30px;
 
     padding-top: 100px;
+
 }
 
 .about__title {
     margin-bottom: 70px;
 
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 40px;
+
+    text-transform: uppercase;
 }
 
 .about__text {
