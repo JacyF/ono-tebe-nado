@@ -8,6 +8,7 @@
     background-position: center;
     background-size: 135px;
 }
+
 .header-inside-container {
     display: grid;
     justify-content: space-evenly;
@@ -17,29 +18,36 @@
     padding: 0 15px;
     line-height: 1.2;
 }
+
 .header__links-list {
     display: flex;
     line-height: 1.1;
     gap: 40px;
     list-style: circle;
 }
+
 .header__link_active {
     text-decoration: none;
 }
+
 .header__links-list-item_no-bullit {
     list-style: none;
 }
+
 .header__links-list-item {
     font-size: 18px;
     font-weight: 400;
 }
+
 .address a, p {
     font-size: 18px;
     line-height: 1.2;
     font-style:normal;
     font-weight: 400;
 }
+
 /* ========   WORKING ON COVER SECTION ============= */
+
 .overlay {
     background-color: black;
     opacity: 60%;
@@ -47,6 +55,7 @@
     inset: 0;
     z-index: -1;
 }
+
 .cover {
     border: 1px solid;
     display: flex;
@@ -62,6 +71,7 @@
     color: white;
     z-index: -2;
 }
+
 .cover__title {
     text-transform: uppercase;
     font-size: 100px;
@@ -70,25 +80,31 @@
     line-height: 1;
     margin-bottom: 19px;
 }
+
 .aligned-text {
     display: block;
     text-align: start;
 }
+
 .aligned-text_center {
     display: block;
     text-align: center;
     line-height: 1.52;
 }
+
 .aligned-text_right {
     display: block;
     text-align: end;
 }
+
 .letter-spacing-extended {
     letter-spacing: 60px;
 }
+
 .no-letter-spacing {
     letter-spacing: 0;
 }
+
 .cover__description {
     display: flex;
     justify-content: space-between;
@@ -96,6 +112,7 @@
     height: 51px;
     margin-top: 100px;
 }
+
 .cover__description-text {
     font-size: 22px;
     font-weight: 400;
@@ -104,22 +121,26 @@
     margin-left: 30px;
     text-transform: uppercase;
 }
+
 .word-spacing-extended {
     word-spacing: 18px;
 }
+
 .bet-button {
     font-size: 22px;
     font-weight: 500;
     text-decoration: none;
     background-color: transparent;
     border: 1px solid white;
-   width: 256px;
-   padding: 12px;
-   cursor: pointer;
-   text-transform: uppercase;
-   color: white;
+    width: 256px;
+    padding: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
 }
+
 /* ========   WORKING ON LOTS SECTION ============= */
+
 .lots__heading {
     font-size: 40px;
     font-weight:700;
@@ -127,14 +148,17 @@
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
 .lots {
     padding: 180px 20px;
 }
+
 .lots__card-list {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
+
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
     background-position: center;
@@ -142,14 +166,15 @@
     background-size: cover;
     z-index: -1;
 }
+
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
-    
+    z-index: -1; 
 }
+
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
     background-position: center;
@@ -157,6 +182,7 @@
     background-size: cover;
     z-index: -1;
 }
+
 .card-link {
     display: flex;
     height: 563px;
@@ -168,29 +194,35 @@
     color: white;
     text-decoration: none;
 }
+
 .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 50px 40px;
 }
+
 .card__title {
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
 }
+
 .card__text {
     font-size: 20px;
     font-weight: 400;
 }
+
 .lots__look-more-link {
     font-size: 20px;
     font-weight: 400;
     margin-top: 5px;
     margin-left: 45px;
 }
+
 /* ========   WORKING ON ABOUT SECTION ============= */
+
 .about {
     display: flex;
     gap: 73px;
@@ -199,6 +231,7 @@
     margin: 24px;
     margin-top: -28px;
 }
+
 .about__logo-image {
     background-color: black;
     clip-path: circle(50%); 
@@ -206,47 +239,61 @@
     width: 240px;
     height: 240px;
 }
+
 .about__column {
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding-top: 100px;
 }
+
 .about__title {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 70px;
 }
+
 .about__text {
     font-weight: 400;
     font-size: 20px;
 }
+
 /* ========   WORKING ON FOOTER SECTION ============= */
+
 .footer {
     display: flex;
     justify-content: space-between;
     margin-top: 68px;
-    padding: 105px 50px;}
+    padding: 105px 50px;
+}
+
 .footer__menu-list {
     list-style: none;
-    text-align: center;}
+    text-align: center;
+}
+
 .footer__menu-link {
     font-weight: 400;
     font-size: 18px;
 }
+
 .footer__menu-link_active {
     text-decoration: none;
 }
+
 .footer__social-list {
     display: flex;
     justify-content: space-between;
     gap: 48px;
     list-style: none;
 }
+
 .footer__social-link {
     width: 48px;
-    display: block;}
+    display: block;
+}
+
 .footer__social-icon {
     width: 100%;
 }
