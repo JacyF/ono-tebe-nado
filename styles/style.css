@@ -244,7 +244,7 @@
 .footer__menu-link_active {
     text-decoration: none;
 }
-.footer__social-list {
+.footer__social-lis{
     list-style: none;
     display: flex; 
     gap: 48px;
