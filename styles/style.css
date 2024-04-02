@@ -204,7 +204,8 @@
     clip-path: circle(50%); 
     padding: 47px;
     width: 240px;
-    height: 240px;}
+    height: 240px;
+}
 .about__column {
     display: flex;
     flex-direction: column;
@@ -241,7 +242,8 @@
     display: flex;
     justify-content: space-between;
     gap: 48px;
-    list-style: none;}
+    list-style: none;
+}
 .footer__social-link {
     width: 48px;
     display: block;}
