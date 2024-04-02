@@ -17,6 +17,7 @@
     line-height: 1.2;
     grid-template-columns: 4fr 1.3fr;
     padding: 0 15px;
+
     height: 105px; 
 }
 
@@ -247,6 +248,7 @@
     height: 240px;
 
     clip-path: circle(50%); 
+    
     background-color: black;
 }
 
