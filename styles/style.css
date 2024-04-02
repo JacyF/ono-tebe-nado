@@ -3,6 +3,7 @@
 /* ========   WORKING ON HEADER AREA ============= */
 .header {
     padding: 92px 24px;
+
     background-image: url(../images/logo-black.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -11,16 +12,14 @@
 
 .header-inside-container {
     display: grid;
-
     justify-content: space-evenly;
     align-items: center;
-
     grid-template-columns: 4fr 1.3fr;
+
+    padding: 0 15px;
 
     height: 105px; 
     line-height: 1.2;
-    
-    padding: 0 15px;
 }
 
 .header__links-list {
@@ -48,19 +47,16 @@
     font-style:normal;
     font-weight: 400;
     line-height: 1.2;
-
 }
 
 /* ========   WORKING ON COVER SECTION ============= */
-
 .overlay {
-
-    background-color: black;
-    opacity: 60%;
     position: absolute;
     inset: 0;
     z-index: -1;
 
+    background-color: black;
+    opacity: 60%;
 }
 
 .cover {
@@ -121,11 +117,11 @@
 }
 
 .cover__description-text {
+    margin-left: 30px;
+    line-height: 28px;
     font-size: 22px;
     font-weight: 400;
-    line-height: 28px;
     word-spacing: 20px;
-    margin-left: 30px;
     text-transform: uppercase;
 }
 
@@ -134,26 +130,30 @@
 }
 
 .bet-button {
+    width: 256px;
+    padding: 12px;
+
     font-size: 22px;
     font-weight: 500;
     text-decoration: none;
-    background-color: transparent;
-    border: 1px solid white;
-    width: 256px;
-    padding: 12px;
-    cursor: pointer;
     text-transform: uppercase;
     color: white;
+    background-color: transparent;
+    border: 1px solid white;
+
+    cursor: pointer;
 }
 
 /* ========   WORKING ON LOTS SECTION ============= */
 
 .lots__heading {
+    margin-left: 45px;
+    margin-bottom: 10px;
+
     font-size: 40px;
     font-weight:700;
-    margin-left: 45px;
+
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
 
 .lots {
@@ -180,7 +180,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-
 }
 
 .card_type_picture {
@@ -193,12 +192,14 @@
 
 .card-link {
     display: flex;
-    height: 563px;
-    width: 334px;
     justify-content: space-around;
-    margin: 20px auto 25px;
     position: relative;
     inset: 0;
+
+    height: 563px;
+    width: 334px;
+    margin: 20px auto 25px;
+    
     color: white;
     text-decoration: none;
 }
@@ -207,6 +208,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     margin: 50px 40px;
 }
 
@@ -223,10 +225,11 @@
 }
 
 .lots__look-more-link {
-    font-size: 20px;
-    font-weight: 400;
     margin-top: 5px;
     margin-left: 45px;
+
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* ========   WORKING ON ABOUT SECTION ============= */
@@ -234,6 +237,7 @@
     display: flex;
     gap: 73px;
     align-items: start;
+
     padding: 35px 0  0 47px;
     margin: 24px;
     margin-top: -28px;
@@ -251,23 +255,21 @@
 
 .about__column {
     display: flex;  
-
     flex-direction: column;
-
     gap: 30px;
 
     padding-top: 100px;
 }
 
 .about__title {
+    margin-bottom: 70px;
+
     text-transform: uppercase;
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 70px;
 }
 
 .about__text {
-
     font-weight: 400;
     font-size: 20px;
 }
@@ -277,6 +279,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
+
     margin-top: 68px;
     padding: 105px 50px;
 }
@@ -299,12 +302,14 @@
     display: flex;
     justify-content: space-between;
     gap: 48px;
+
     list-style: none;
 }
 
 .footer__social-link {
-    width: 48px;
     display: block;
+
+    width: 48px;
 }
 
 .footer__social-icon {
