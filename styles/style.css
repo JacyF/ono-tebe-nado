@@ -246,7 +246,9 @@
 
 .about__logo-image {
     background-color: black;
+
     clip-path: circle(50%); 
+    
     padding: 47px;
     width: 240px;
     height: 240px;
@@ -254,9 +256,9 @@
 
 .about__column {
     display: flex;  
-
     flex-direction: column;
     gap: 30px;
+
     padding-top: 100px;
 }
 
