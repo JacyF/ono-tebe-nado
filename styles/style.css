@@ -196,7 +196,7 @@
 /* ========   WORKING ON ABOUT SECTION ============= */
 .about {
     display: flex;
-    gap: 75px;
+    gap: 73px;
     align-items: start;
     padding: 35px 0  0 47px;
     margin: 24px;
