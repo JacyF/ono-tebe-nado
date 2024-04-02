@@ -1,89 +1,52 @@
 /* место для вашего кода */
 
-/* ========   WORKING ON HEADER AREA ============= 
-.header {
-  padding: 92px 24px;
-  background-image: url(../images/logo-black.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 135px;
-}
-
-.header-inside-container {
-  display: grid;
-  justify-content: space-evenly;
-  align-items: center;
-  grid-template-columns: 4fr 1.3fr;
-  padding: 0 15px;
-  height: 105px;
-  line-height: 1.2;
-}
-
-.header__links-list {
-  display: flex;
-  line-height: 1.1;
-  gap: 40px;
-  list-style: circle;
-}
-
-.header__link_active {
-  text-decoration: none;
-}
-
-.header__links-list-item_no-bullit {
-  list-style: none;
-}
-
-.header__links-list-item {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.address a, p {
-  font-size: 18px;
-  font-style:normal;
-  font-weight: 400;
-  line-height: 1.2;
-}*/
+/* ========   WORKING ON HEADER AREA ============= */
 
 .header {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto 105px 2fr;
   grid-template-rows: repeat(1, 1fr);
+  justify-content: space-between;
   gap: 20px;
   padding: 92px 24px;
-  line-height: 1.2;
 }
+
 .header__links-list {
   list-style: none;
   display: flex;
   gap: 30px;
-  text-wrap:nowrap ;
   margin: 0 20px;
+  text-wrap: nowrap;
 }
+
 .header__links-list-item {
   list-style: circle;
 }
+
 .header__links-list-item_no-bullit {
   list-style: none;
 }
+
 .header__link {
   font-size: 18px;
   font-weight: 400;
 }
+
 .header__link_active {
   text-decoration: none;
 }
+
 .header__logo {
-  display: block;
   width: 148px;
   height: 105px;
 }
+
 .header__logo-image {
   width: 100%;
   height: 100%;
 }
+
 .address {
   justify-self: end;
   font-style: normal;
@@ -92,6 +55,7 @@
   margin-right: 70px;
   line-height: 1.4;
 }
+
 .header__address {
   line-height: 1.2;
 }
@@ -199,7 +163,7 @@
 }
 
 .lots {
-    padding: 180px 20px;
+  padding: 180px 20px;
 }
 
 .lots__card-list {
