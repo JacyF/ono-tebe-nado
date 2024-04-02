@@ -13,7 +13,7 @@
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: 4fr 1.3fr;
-    /* height: 107px; testing */
+    height: 105px; /* testing*/
     align-items: center;
     padding: 0 15px;
     line-height: 1.2;
