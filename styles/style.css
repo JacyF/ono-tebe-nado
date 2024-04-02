@@ -229,7 +229,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    /*margin-top: 68px; */ margin-top: 70px;
+    /*margin-top: 68px; */ margin-top: 75px;
     padding: 105px 50px;}
 .footer__menu-list {
     list-style: none;
