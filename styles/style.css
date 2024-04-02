@@ -227,6 +227,7 @@
 /* ========   WORKING ON ABOUT SECTION ============= */
 
 .about {
+    
     display: flex;
     gap: 73px;
     align-items: start;
@@ -310,6 +311,6 @@
 }
 
 .footer__social-icon {
-    
+
     width: 100%;
 }
