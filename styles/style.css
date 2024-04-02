@@ -2,7 +2,7 @@
 
 /* ========   WORKING ON HEADER AREA ============= */
 .header {
-    margin-top: 20px; /* testing*/
+    
     padding: 92px 24px;
     background-image: url(../images/logo-black.svg);
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: 4fr 1.3fr;
-    height: 105px; /* testing*/
+    height: 105px; 
     align-items: center;
     padding: 0 15px;
     line-height: 1.2;
@@ -229,7 +229,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-   /* margin-top: 68px; testing */
+    margin-top: 68px; 
     padding: 105px 50px;}
 .footer__menu-list {
     list-style: none;
