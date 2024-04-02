@@ -245,10 +245,10 @@
     text-decoration: none;
 }
 .footer__social-list {
-    list-style: none;
-    display: flex; 
+    list-style: none; 
     justify-content: space-between;
     gap: 48px;
+    display: flex;
   
 }
 .footer__social-link {
