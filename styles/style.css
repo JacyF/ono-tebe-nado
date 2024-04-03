@@ -240,10 +240,10 @@
   display: flex;
   gap: 73px;
   align-items: start;
-  padding: 35px 0  0 47px;
-  /* margin: 24px;
+  padding: 38px 0  0 47px;
+  /* margin: 24px; padd 35
   margin-top: -28px;tst*/
-  margin: -15px 24px 24px
+  margin: -18px 24px 24px
 }
 
 .about__logo-image {
