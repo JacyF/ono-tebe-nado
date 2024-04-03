@@ -75,7 +75,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px 20px;
-  padding: 175px 50px 50px; /* tst 70 normal*/
+  padding: 172px 50px 50px; /* tst 70 normal*/
   position: relative;
   background-image: url(../images/cover.jpg);
   background-position: center;
