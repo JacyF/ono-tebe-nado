@@ -277,7 +277,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 75px; /*tst 68*/
+  margin-top: 80px; /*tst 68*/
   padding: 90px 50px;
   line-height: 1.2;
 }
