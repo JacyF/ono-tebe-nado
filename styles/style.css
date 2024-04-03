@@ -75,7 +75,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px 20px;
-  padding: 171px 50px 50px; /* tst 70 normal*/
+  padding: 17px 52px 50px; /* tst 71 good*/
   position: relative;
   background-image: url(../images/cover.jpg);
   background-position: center;
@@ -243,7 +243,7 @@
   padding: 35px 0  0 47px;
   /* margin: 24px;
   margin-top: -28px;tst*/
-  margin: -21px 24px 24px
+  margin: -20px 24px 24px
 }
 
 .about__logo-image {
