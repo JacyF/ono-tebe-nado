@@ -10,7 +10,6 @@
   justify-content: space-between;
   gap: 15px;
   padding: 93px 26px;
-
 }
 
 .header__links-list {
@@ -71,7 +70,6 @@
 }
 
 .cover {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   gap: 20px 20px;
@@ -83,7 +81,6 @@
   background-size: cover;
   color: white;
   z-index: -2;
-
 }
 
 .cover__title {
@@ -157,7 +154,6 @@
 
 .lots__heading {
   margin-left: 45px;
-  /* tst margin-bottom: 10px; */
   font-size: 40px;
   font-weight:700;
   text-transform: uppercase;
@@ -241,8 +237,6 @@
   gap: 73px;
   align-items: start;
   padding: 35px 0  0 47px;
-  /* margin: 24px; marg -28
-  margin-top: -28px;tst*/
   margin: -30px 24px 24px
 }
 
