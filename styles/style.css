@@ -121,7 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 85px; /* 80 good*/
+  gap: 90px; /* 80 good*/
   margin-top: 110px;
 }
 
@@ -198,7 +198,7 @@
 }
 
 .card_type_film {
-  background-image: url(../images/card-lot-01.jpg); 
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
@@ -220,6 +220,7 @@
 .card__text {
   font-size: 20px;
   font-weight: 400;
+  line-height: 24px;
 }
 
 .lots__look-more-link {
