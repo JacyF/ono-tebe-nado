@@ -48,15 +48,14 @@
 
 .header__address {
   justify-self: end;
+}
+
+.address {
   font-style: normal;
   font-size: 18px;
   font-weight: 400;
   max-width:240px;
-  line-height: 1.4;
-}
-
-.address {
-  line-height: 1.2;
+  line-height: 24.3px;
 }
 
 /* ========   WORKING ON COVER SECTION ============= */
@@ -78,7 +77,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #fff;
   z-index: 1;
 }
 
@@ -110,18 +109,18 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing:60px;
+  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
-  letter-spacing:0;
+  letter-spacing: 0;
 }
 
 .cover__description {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 90px; /* 80 good*/
+  gap: 85px; /* 80 good*/
   margin-top: 110px;
 }
 
@@ -238,8 +237,8 @@
   display: flex;
   gap: 73px;
   align-items: start;
-  padding: 35px 0  0 47px;
-  margin: -30px 24px 24px
+  padding: 5px 0 0 47px;
+  margin: 0 24px;
 }
 
 .about__logo-image {
@@ -247,13 +246,13 @@
   padding: 47px;
   width: 240px;
   height: 240px;
-  background-color: black;
+  background-color: #000000;
 }
 
 .about__column {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 27px;
   padding-top: 100px;
 }
 
@@ -262,18 +261,20 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
+  line-height: 46.96px;
 }
 
 .about__text {
   font-weight: 400;
   font-size: 20px;
+  line-height: 24px;
 }
 
 /* ========   WORKING ON FOOTER SECTION ============= */
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 80px; /*tst 68*/
+  margin-top: 95px;
   padding: 90px 50px;
   line-height: 1.2;
 }
@@ -286,6 +287,7 @@
 .footer__menu-link {
   font-weight: 400;
   font-size: 18px;
+  line-height: 21.13px;
 }
 
 .footer__menu-link_active {
@@ -294,7 +296,6 @@
 
 .footer__social-list {
   display: flex;
-  justify-content: space-between;
   gap: 48px;
   list-style: none;
 }
@@ -302,8 +303,5 @@
 .footer__social-link {
   display: block;
   width: 48px;
-}
-
-.footer__social-icon {
-  width: 100%;
+  text-decoration: none;
 }
