@@ -59,6 +59,7 @@
 }
 
 /* ========   WORKING ON COVER SECTION ============= */
+
 .overlay {
   position: absolute;
   inset: 0;
@@ -120,7 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 85px; /* 80 good*/
+  gap: 85px;
   margin-top: 110px;
 }
 
@@ -131,7 +132,6 @@
   word-spacing: 20px;
   text-transform: uppercase;
 }
-
 
 .bet-button {
   width: 256px;
@@ -231,8 +231,8 @@
   line-height: 23.48px;
 }
 
-
 /* ========   WORKING ON ABOUT SECTION ============= */
+
 .about {
   display: flex;
   gap: 73px;
@@ -271,10 +271,11 @@
 }
 
 /* ========   WORKING ON FOOTER SECTION ============= */
+
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 85px; /*tst*/
+  margin-top: 85px;
   padding: 90px 50px;
   line-height: 1.2;
 }
