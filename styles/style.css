@@ -159,7 +159,7 @@
 }
 
 .lots {
-  padding: 175px 20px; /*180px 20px;*/
+  padding: 177px 20px; /*180px 20px;*/
 }
 
 .lots__card-list {
@@ -276,7 +276,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 90px; /*tst 85*/
+  margin-top: 85px; /*tst 85*/
   padding: 90px 50px;
   line-height: 1.2;
 }
