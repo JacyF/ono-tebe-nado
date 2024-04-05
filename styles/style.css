@@ -159,7 +159,7 @@
 }
 
 .lots {
-  padding: 180px 20px;
+  padding: 170px 20px; /*180px 20px;*/
 }
 
 .lots__card-list {
